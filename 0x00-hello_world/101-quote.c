@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <sys/syscall.h>
+#include <stdlib.h>
+#include <unistd.h>
 /**
  * main - entry
  * Return: Always 1(success)
@@ -8,6 +9,6 @@ int main(void)
 {
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fprintf(stderr, str);
+	write(2, str, 59);
 	return (1);
 }
