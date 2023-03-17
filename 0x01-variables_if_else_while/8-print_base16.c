@@ -7,13 +7,17 @@
  */
 int main(void)
 {
-	int i, slen;
+	int i;
 	char bsth[16] = "0123456789abcdef";
-	slen = strlen(bsth);
+	/*slen = strlen(bsth);*/
 
-	for (i = 0; i < slen; i++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
+		putchar(bsth[i]);
+	}
+	for (i = 10; i < 16; i++)
+	{
+		putchar(bsth[i]);
 	}
 	putchar('\n');
 	return (0);
