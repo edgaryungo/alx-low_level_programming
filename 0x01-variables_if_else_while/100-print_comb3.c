@@ -30,7 +30,7 @@ int main(void)
 			}
 			a++;
 		}
-		b++
+		b++;
 	}
 	putchar('\n');
 	return (0);
