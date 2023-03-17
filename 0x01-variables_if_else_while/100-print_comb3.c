@@ -14,14 +14,14 @@ int main(void)
 
 	while (b < 58)
 	{
-		a =48;
+		a = 48;
 		while (a < 58)
 		{
 			if (b != a && b < a)
 			{
 				putchar(b);
 				putchar(a);
-				if (a ==57 && b == 56)
+				if (a == 57 && b == 56)
 				{
 					break;
 				}
