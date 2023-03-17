@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int i;
+	int i, slen;
 	char bsth[16] = "0123456789abcdef";
-	int slen = strlen(bsth);
+	slen = strlen(bsth);
 
 	for (i = 0; i < slen; i++)
 	{
