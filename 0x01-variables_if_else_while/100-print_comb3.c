@@ -21,7 +21,7 @@ int main(void)
 			{
 				putchar(48 + b);
 				putchar(48 + a);
-				if (a == 9 && e == 8)
+				if (a == 9 && b == 8)
 				{
 					break;
 				}
