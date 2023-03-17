@@ -9,9 +9,9 @@ int main(void)
 {
 	char alpt[26] = "abcdefghijklmnopqrstuvwxyz";
 	/*reverse(alpt);*/
-	int i = 26;
+	int i;
 
-	for (i; i > 0; i--)
+	for (i = 26; i > 0; i--)
 	{
 		putchar(i);
 	}
