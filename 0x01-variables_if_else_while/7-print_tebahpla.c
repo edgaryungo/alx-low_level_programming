@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char alpt[26] = "abcdefghijklmnopqrstuvwxyz";
+	/*char alpt[26] = "abcdefghijklmnopqrstuvwxyz";*/
 	/*reverse(alpt);*/
 	int i;
 
