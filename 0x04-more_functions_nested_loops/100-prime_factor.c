@@ -17,6 +17,7 @@ int main(void)
 		{
 			/*printf(" %d", prm);*/
 			num = num / prm;
+			prm--;
 		}
 	}
 	printf("%ld", prm);
