@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *5-more_numbers
+ *5-more_numbers - print 1 to 14
+ *10 times
  * Return: void
  */
 void more_numbers(void)
@@ -15,6 +16,7 @@ void more_numbers(void)
 				_putchar(48 + (b / 10));
 			_putchar(48 + (b % 10));
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
+	
 }
