@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - print 0 t0 9 exclude 2 and 4
- *
+ *@a: parameter
  * Return: void
  */
 void print_most_numbers(void)
@@ -11,7 +11,7 @@ void print_most_numbers(void)
 
 	for (a = 48; a < 58; a++)
 	{
-		if ( a == 50 && a == 52)
+		if (a == 50 && a == 52)
 		{
 			break;
 		}
