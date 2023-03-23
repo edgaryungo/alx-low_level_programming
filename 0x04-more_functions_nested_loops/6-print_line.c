@@ -2,7 +2,8 @@
 
 /**
  * print_line - prints a line
- *
+ *@a: loval variable
+ *@n: input
  * Return: void
  */
 void print_line(int n)

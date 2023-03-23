@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - print 0 t0 9 exclude 2 and 4
- *@a: parameter
+ *@alocal variable
  * Return: void
  */
 void print_most_numbers(void)
