@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks for upper case
- *
+ *@c: input
  * Return: 1 foe success or else 0
  */
 int _isupper(int c)
