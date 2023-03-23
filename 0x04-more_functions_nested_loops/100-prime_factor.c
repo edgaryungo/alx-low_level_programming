@@ -20,7 +20,7 @@ int main(void)
 			prm--;
 		}
 	}
-	printf("%ld", prm);
+	printf("%ld\n", prm);
 	return (0);
 }
 
