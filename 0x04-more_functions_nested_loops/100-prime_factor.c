@@ -3,8 +3,6 @@
 
 /**
  * main - find prime factorization
- *
- *
  * Return: 0 on success
  */
 int main(void)
@@ -21,7 +19,7 @@ int main(void)
 			num = num / prm;
 		}
 	}
-	printf("largest prime factor, %d", prm);
+	printf("%ld", prm);
 	return (0);
 }
 
