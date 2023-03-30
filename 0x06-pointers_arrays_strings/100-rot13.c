@@ -2,7 +2,7 @@
 
 /**
  * rot13 - encodes a string using rot13
- * @trs: input string.
+ * @str: input string.
  * Return: the pointer to dest.
  */
 
