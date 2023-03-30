@@ -23,4 +23,16 @@ Write a function that capitalizes all words of a string.
 7. Mozart composed his music not for the elite, but for everybody
 mandatory
 Write a function that encodes a string into 1337.
-
+8. rot13
+## advanced
+Write a function that encodes a string using rot13.
+9. Numbers have life; they're not just symbols on paper
+##advanced
+Write a function that prints an integer.
+10. A dream doesn't become reality through magic; it takes sweat, determination and hard work
+##advanced
+11. It is the addition of strangeness to beauty that constitutes the romantic character in art
+##advanced
+12. Noise is a buffer, more effective than cubicles or booth walls
+##advanced
+Write a function that prints a buffer.
