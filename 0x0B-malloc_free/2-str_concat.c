@@ -32,11 +32,11 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	for (k = 0; k < i; k++)
-		*(ns + k) = *(s1 + k);
+		ns[k] = *(s1 + k);
 
 	temp = j;
 	for (j = 0; j < temp; j++)
-		*(ns + k) = *(s2 + j);
+		ns[k] = *(s2 + j);
 
 	return (ns);
 }
